@@ -40,6 +40,14 @@ body {
 .dot-list {
     list-style-type: none;
 }
+.container {
+    display: flex;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 /*Header******************************************/
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -48,6 +56,7 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--main-color-text);
+    margin-right: 93px;
 }
 
 .logo>.logo-first {
@@ -58,6 +67,9 @@ body {
  {
     font-weight: 500;
     color: var(--main-color-text);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
 }
 .nvlist:hover,
 .nvlist:focus {
@@ -66,11 +78,31 @@ body {
 .hdcontact {
     font-weight: 500;
     color: var(--second-color-text);
+    margin-right: 50px;
+
+}
+.hdcontact:last-child {
+    margin-right: 0;
 }
 
 .hdcontact:hover,
 .hdcontact:focus {
     color: var(--accent-color-text);
+}
+.navigator-list {
+    display: flex;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.navigator-list>li {
+    margin-right: 50px;
+}
+.navigator-list>li:last-child {
+    margin-right: 0;
+}
+.main-nav {
+    align-items: center;
 }
 /*Hero*******************/
 .hero,
@@ -85,6 +117,10 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--three-color-text);
+}
+.contact-header {
+    margin-left: auto;
+    display: flex;
 }
 /*What are we doing**************/
 .visually-hidden {
@@ -200,3 +236,4 @@ color: var(--accent-color-text);
     letter-spacing: 0.03em;
     color: var(--second-color-text);
 }
+
