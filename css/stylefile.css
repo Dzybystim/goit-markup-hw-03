@@ -69,7 +69,9 @@ h1,h2,h3,h4,h5,h6,p {
 .logo>.logo-first {
     color: var(--accent-color-text);
 }
-
+.logo-second {
+    color: var(--three-color-text) ;
+}
 .nvlist
  {
     font-weight: 500;
@@ -241,7 +243,7 @@ padding-bottom: 94px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.team>.dot-list {
+.team .dot-list {
     display: flex;
 }
 .filter>.dot-list {
@@ -299,7 +301,12 @@ color: var(--accent-color-text);
 .address {
 margin-top: 20px;
 }
-
+.footer-link {
+    margin-bottom: 9px;
+}
+.footer-link:last-child {
+    margin-bottom: 0;
+}
 /*.footer-block {
     margin-left: auto;
     margin-right: auto;
@@ -355,6 +362,7 @@ margin-top: 20px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--main-color-text);
+    margin-bottom: 4px;
 }
 .work-text {
     font-size: 16px;
@@ -389,5 +397,5 @@ margin-top: 20px;
 .filter-nav {
     display: flex;
     justify-content:center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
